@@ -23,7 +23,7 @@ jobs:
           gitea_gist_prefix: "gist"
           gitea_gist_surfix: ""
           gistsSource: true
-          gistsStared: false
-          repositoryStared: false
-          repositorySource: false
-          repositoryForked: false
+          gistsStared: true
+          repositoryStared: true
+          repositorySource: true
+          repositoryForked: true
