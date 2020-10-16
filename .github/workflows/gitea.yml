@@ -22,7 +22,7 @@ jobs:
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
           gitea_gist_prefix: "gist"
           gitea_gist_surfix: ""
-          gistsSource: true
+          gistsSource: false
           gistsStared: false
           repositoryStared: false
           repositorySource: false
