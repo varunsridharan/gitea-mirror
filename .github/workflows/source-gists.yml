@@ -22,7 +22,7 @@ jobs:
         name: "Trigger Mirror"
         with:
           gh_username: ${{ secrets.GH_USERNAME }}
-          accesstoken: ${{ secrets.GH_TOKEN }}
+          gh_accesstoken: ${{ secrets.GH_TOKEN }}
           gitea_host: ${{ secrets.GITEA_HOST }}
           gitea_username: ${{ secrets.GITEA_USERNAME }}
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
