@@ -9,7 +9,7 @@ on:
   push:
 
     paths:
-      - .github/workflows/source-gists.yml
+      - .github/workflows/stared-gists.yml
 
     branches:
       - main
