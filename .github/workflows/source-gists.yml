@@ -1,17 +1,23 @@
-name: "Gitea Mirror"
+name: " ⏳  Source Gists Mirror"
 
 on:
   workflow_dispatch:
+
+  schedule:
+    - cron: '0 * * * *'
+
   push:
+
+    paths:
+      - .github/workflows/source-gists.yml
+
     branches:
       - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      #- uses: actions/checkout@v2
       - uses: varunsridharan/action-gitea-mirror@main
         name: "Trigger Mirror"
         with:
@@ -23,7 +29,7 @@ jobs:
           gitea_gist_prefix: "gist"
           gitea_gist_surfix: ""
           gistsSource: true
-          gistsStared: true
-          repositoryStared: true
-          repositorySource: true
-          repositoryForked: true
+          gistsStared: false
+          repositoryStared: false
+          repositorySource: false
+          repositoryForked: false
