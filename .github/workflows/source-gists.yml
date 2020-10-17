@@ -15,11 +15,12 @@ on:
       - main
 
 jobs:
-  build:
+  mirror:
+    name: "⏳  Mirror"
     runs-on: ubuntu-latest
     steps:
       - uses: varunsridharan/action-gitea-mirror@main
-        name: "Trigger Mirror"
+        name: "RUN"
         with:
           gh_username: ${{ secrets.GH_USERNAME }}
           gh_accesstoken: ${{ secrets.GH_TOKEN }}
