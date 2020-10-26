@@ -12,19 +12,15 @@ jobs:
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
+
       - uses: varunsridharan/action-gitea-mirror@main
         name: "RUN"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           gh_username: ${{ secrets.GH_USERNAME }}
           gh_accesstoken: ${{ secrets.GH_TOKEN }}
           gitea_host: ${{ secrets.GITEA_HOST }}
           gitea_username: ${{ secrets.GITEA_USERNAME }}
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
-          gistsSource: false
           localCache: true
-          gistsStared: false
-          repositoryStared: false
-          repositorySource: false
-          repositoryForked: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
