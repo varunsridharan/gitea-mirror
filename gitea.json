@@ -49,6 +49,7 @@
     "Idnan/bash-guide": "Idnan/bash-guide",
     "JNKKKK/MoreToggles.css": "JNKKKK/MoreToggles.css",
     "Japh/ThemeForest-Check": "Japh/ThemeForest-Check",
+    "JasonEtco/is-sponsor-label-action": "JasonEtco/is-sponsor-label-action",
     "JoeSz/WordPress-Plugin-Boilerplate-Tutorial": "JoeSz/WordPress-Plugin-Boilerplate-Tutorial",
     "Josantonius/PHP-Database": "Josantonius/PHP-Database",
     "Josantonius/PHP-File": "Josantonius/PHP-File",
@@ -79,6 +80,7 @@
     "Rarst/wporg-client": "Rarst/wporg-client",
     "RitikPatni/Front-End-Web-Development-Resources": "RitikPatni/Front-End-Web-Development-Resources",
     "RobertWHurst/KeyboardJS": "RobertWHurst/KeyboardJS",
+    "RobinLinus/snapdrop": "RobinLinus/snapdrop",
     "Rodgath/Dilaz-Metabox-Plugin": "Rodgath/Dilaz-Metabox-Plugin",
     "RoeeLupo/personal-website": "RoeeLupo/personal-website",
     "Rudloff/alltube": "Rudloff/alltube",
@@ -262,6 +264,7 @@
     "ghinda/css-toggle-switch": "ghinda/css-toggle-switch",
     "ghosh/Micromodal": "ghosh/Micromodal",
     "gitftp/gitftp": "gitftp/gitftp",
+    "github/choosealicense.com": "github/choosealicense.com",
     "github/clipboard-copy-element": "github/clipboard-copy-element",
     "github/hotkey": "github/hotkey",
     "github/include-fragment-element": "github/include-fragment-element",
@@ -560,6 +563,8 @@
     "tobiasahlin/SpinKit": "tobiasahlin/SpinKit",
     "tommcfarlin/WordPress-Widget-Boilerplate": "tommcfarlin/WordPress-Widget-Boilerplate",
     "tonyganch/css-properties": "tonyganch/css-properties",
+    "toptal/gitignore": "toptal/gitignore",
+    "toptal/gitignore.io": "toptal/gitignore.io",
     "tuupola/jquery_chained": "tuupola/jquery_chained",
     "twitter/typeahead.js": "twitter/typeahead.js",
     "tylingsoft/markdown-plus": "tylingsoft/markdown-plus",
@@ -859,5 +864,6 @@
     "zgordon/how-to-gutenberg-plugin": "zgordon/how-to-gutenberg-plugin",
     "ziadoz/awesome-php": "ziadoz/awesome-php",
     "ziishaned/emoji-awesome": "ziishaned/emoji-awesome",
-    "ziishaned/learn-regex": "ziishaned/learn-regex"
+    "ziishaned/learn-regex": "ziishaned/learn-regex",
+    "zordius/lightncandy": "zordius/lightncandy"
 }
