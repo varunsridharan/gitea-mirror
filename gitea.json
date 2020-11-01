@@ -611,6 +611,7 @@
     "varunsridharan/action-gitea-mirror": "varunsridharan/action-gitea-mirror",
     "varunsridharan/action-github-workflow-sync": "varunsridharan/action-github-workflow-sync",
     "varunsridharan/action-repository-meta": "varunsridharan/action-repository-meta",
+    "varunsridharan/action-repository-roster": "varunsridharan/action-repository-roster",
     "varunsridharan/action-vs-utility": "varunsridharan/action-vs-utility",
     "varunsridharan/action-wp-org-assets-update": "varunsridharan/action-wp-org-assets-update",
     "varunsridharan/action-wp-org-deploy": "varunsridharan/action-wp-org-deploy",
