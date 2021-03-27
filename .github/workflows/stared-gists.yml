@@ -3,7 +3,7 @@ name: " ⏳  Stared Gists Mirror"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2,4,6,8,10 * * *'
+    - cron: '0 17 * * *'
 
 jobs:
   mirror:
