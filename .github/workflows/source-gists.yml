@@ -3,7 +3,7 @@ name: " ⏳  Source Gists Mirror"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1,3,5,7,9 * * *'
+    - cron: '0 21 * * *'
 
 jobs:
   mirror:
