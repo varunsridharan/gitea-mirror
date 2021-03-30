@@ -1,3 +1,6 @@
+> # ⚠️ Archived. Please Visit [varunsridharan/cron](https://github.com/varunsridharan/cron)
+
+
 # Gitea Mirror Runner
 
 This repository is used to mirror all my Repository / Gists from github to my selfhosted gitea instance. 
